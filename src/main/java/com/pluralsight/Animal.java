@@ -1,6 +1,11 @@
 package com.pluralsight;
 
 public class Animal {
+
+    public void makeSound(){
+        System.out.println("The animal is making noise.");
+    }
+
     public void eat() {
         System.out.println("This animal eats food.");
     }
